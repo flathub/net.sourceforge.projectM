@@ -34,7 +34,7 @@
         },
         {
           "type": "shell",
-          "commands": [ "cp -p /usr/share/automake-*/config.{sub,guess} ." ]
+          "commands": [ "cp -p /usr/share/automake-*/config.{sub,guess} .auto" ]
         }
       ]
     },
@@ -73,10 +73,6 @@
         {
           "type": "file",
           "path": "net.sourceforge.projectM.appdata.xml"
-        },
-        {
-          "type": "shell",
-          "commands": [ "cp -p /usr/share/automake-*/config.{sub,guess} ." ]
         }
       ]
     }
