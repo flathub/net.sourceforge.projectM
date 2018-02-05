@@ -9,6 +9,17 @@
   <description>
     <p>Music visualizer which uses 3D accelerated iterative image based rendering.</p>
   </description>
+  <screenshots>
+    <screenshot type="default">
+        <image>https://raw.githubusercontent.com/projectM-visualizer/projectm/master/src/projectM-iTunes/projectM%20screenshots/Screen%20Shot%202014-07-18%20at%202.14.41%20PM.png</image>
+    </screenshot>
+    <screenshot>
+        <image>https://raw.githubusercontent.com/projectM-visualizer/projectm/master/src/projectM-iTunes/projectM%20screenshots/Screen%20Shot%202014-07-18%20at%202.13.53%20PM.png/image>
+    </screenshot>
+    <screenshot>
+        <image>https://raw.githubusercontent.com/projectM-visualizer/projectm/master/src/projectM-iTunes/projectM%20screenshots/Screen%20Shot%202014-07-18%20at%202.15.36%20PM.png</image>
+    </screenshot>
+  </screenshots>
   <releases>
     <release version="2.1.0" date="2012-05-20"/>
   </releases>
