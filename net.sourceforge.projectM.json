@@ -5,6 +5,7 @@
   "runtime-version": "5.12",
   "sdk": "org.kde.Sdk",
   "command": "projectM-pulseaudio",
+  "rename-icon": "projectM",
   "rename-desktop-file": "projectM-pulseaudio.desktop",
   "finish-args": [
     "--share=ipc",
@@ -32,12 +33,10 @@
         "--disable-static"
       ],
       "post-install": [
-        "install -Dm644 /app/share/pixmaps/prjm16-transparent.svg /app/share/icons/hicolor/scalable/apps/net.sourceforge.projectM.svg",
-        "rm -r /app/share/pixmaps",
-        "desktop-file-edit --set-icon=net.sourceforge.projectM /app/share/applications/projectM-pulseaudio.desktop",
         "install -Dm644 net.sourceforge.projectM.appdata.xml /app/share/appdata/net.sourceforge.projectM.appdata.xml"
       ],
       "cleanup": [
+        "/bin/projectM-unittest",
         "/include",
         "/lib/pkgconfig",
         "*.la",
@@ -47,7 +46,7 @@
         {
           "type": "git",
           "url": "https://github.com/projectM-visualizer/projectm.git",
-          "commit": "8b52061e17ace56737de191b81adf3c3df34504e"
+          "tag": "3.1.1-rc4"
         },
         {
           "type": "file",
