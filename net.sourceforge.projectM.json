@@ -47,7 +47,7 @@
         {
           "type": "git",
           "url": "https://github.com/projectM-visualizer/projectm.git",
-          "commit": "8b52061e17ace56737de191b81adf3c3df34504e"
+          "tag": "3.1.1-rc4"
         },
         {
           "type": "file",
