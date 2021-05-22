@@ -2,7 +2,7 @@
   "app-id": "net.sourceforge.projectM",
   "branch": "stable",
   "runtime": "org.kde.Platform",
-  "runtime-version": "5.12",
+  "runtime-version": "5.15",
   "sdk": "org.kde.Sdk",
   "command": "projectM-pulseaudio",
   "rename-icon": "projectM",
@@ -14,18 +14,6 @@
     "--socket=pulseaudio"
   ],
   "modules": [
-    {
-      "name": "glm",
-      "cleanup": ["*"],
-      "buildsystem": "cmake-ninja",
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://github.com/g-truc/glm/releases/download/0.9.9.2/glm-0.9.9.2.zip",
-          "sha256": "209b5943d393925e1a6ecb6734e7507b8f6add25e72a605b25d0d0d382e64fd4"
-        }
-      ]
-    },
     {
       "name": "projectm",
       "config-opts": [
@@ -46,7 +34,7 @@
         {
           "type": "git",
           "url": "https://github.com/projectM-visualizer/projectm.git",
-          "tag": "3.1.1-rc4"
+          "tag": "v3.1.12"
         },
         {
           "type": "file",
