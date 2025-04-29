@@ -3,26 +3,36 @@
   <id>net.sourceforge.projectM.desktop</id>
   <name>projectM</name>
   <summary>Music visualizer which uses 3D accelerated iterative image based rendering</summary>
+  <developer id="io.github.projectm-visualizer">
+    <name>projectM Developers</name>
+  </developer>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0</project_license>
-  <url type="homepage">http://projectm.sourceforge.net/</url>
+  <url type="homepage">https://github.com/projectM-visualizer/projectm/</url>
   <description>
-    <p>Music visualizer which uses 3D accelerated iterative image based rendering.</p>
+    <p>Experience psychedelic and mesmerizing visuals by transforming music into equations that render into a limitless array of user-contributed visualizations.</p>
+    <p>projectM is an open-source project that reimplements the esteemed Winamp Milkdrop by Geiss in a more modern, cross-platform reusable library.</p>
+    <p>Its purpose in life is to read an audio input and to produce mesmerizing visuals, detecting tempo, and rendering advanced equations into a limitless array of user-contributed visualizations.</p>
   </description>
   <screenshots>
     <screenshot type="default">
         <image>https://raw.githubusercontent.com/projectM-visualizer/projectm/v3.1.12/src/projectM-MusicPlugin/projectM%20screenshots/Screen%20Shot%202014-07-18%20at%202.14.41%20PM.png</image>
+        <caption>Visualization example 1</caption>
     </screenshot>
     <screenshot>
         <image>https://raw.githubusercontent.com/projectM-visualizer/projectm/v3.1.12/src/projectM-MusicPlugin/projectM%20screenshots/Screen%20Shot%202014-07-18%20at%202.13.53%20PM.png</image>
+        <caption>Visualization example 1</caption>
     </screenshot>
     <screenshot>
         <image>https://raw.githubusercontent.com/projectM-visualizer/projectm/v3.1.12/src/projectM-MusicPlugin/projectM%20screenshots/Screen%20Shot%202014-07-18%20at%202.15.36%20PM.png</image>
+        <caption>Visualization example 1</caption>
     </screenshot>
   </screenshots>
   <releases>
+    <release version="3.1.13" date="2021-07-10"/>
     <release version="3.1.12" date="2020-02-20"/>
     <release version="3.1.1-rc4" date="2019-05-11"/>
   </releases>
   <content_rating type="oars-1.1" />
+  <launchable type="desktop-id">net.sourceforge.projectM.desktop</launchable>
 </component>
