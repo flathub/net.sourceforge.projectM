@@ -1,6 +1,5 @@
 {
   "app-id": "net.sourceforge.projectM",
-  "branch": "stable",
   "runtime": "org.kde.Platform",
   "runtime-version": "5.15-24.08",
   "sdk": "org.kde.Sdk",
